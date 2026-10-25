@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="ملك العطور — عطور تحكي قصتك. اكتشف مجموعتنا المميزة.">
+  <title>ملك العطور | عطور تحكي قصتك</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="ملك العطور - الرئيسية">
+    <span class="crown">♛</span><span>ملك العطور</span><small>عطور تحكي قصتك</small>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+  <nav id="nav">
+    <a href="#home">الرئيسية</a><a href="#products">العطور</a><a href="#story">من نحن</a><a href="#contact">تواصل معنا</a>
+  </nav>
+  <a class="cart-link" href="#products" aria-label="تصفح العطور">♧ <span id="cartCount">0</span></a>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-shade"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">الفخامة في كل تفصيلة</p>
+      <h1>ملك العطور</h1>
+      <h2>عطور تحكي قصتك</h2>
+      <p class="hero-desc">اكتشف مجموعتنا المختارة من العطور المميزة، بروائح تترك انطباعًا لا يُنسى.</p>
+      <a class="gold-button" href="#products">اكتشف المجموعة <span>←</span></a>
+    </div>
+    <div class="hero-bottle" aria-label="زجاجة عطر فاخرة">
+      <div class="bottle-cap"></div><div class="bottle-neck"></div>
+      <div class="bottle"><span class="bottle-mark">♛</span><strong>ملك العطور</strong><small>EAU DE PARFUM</small></div>
+    </div>
+    <div class="hero-bottom">أناقة تبقى في الذاكرة <span>✦</span> اختَر عطرك</div>
+  </section>
+
+  <section class="section products-section" id="products">
+    <div class="section-heading"><span></span><div><p class="eyebrow">اختيارات مميزة</p><h2>اكتشف العطور</h2></div><span></span></div>
+    <p class="section-intro">اختَر الرائحة التي تعبّر عن شخصيتك.</p>
+    <div class="filters" role="group" aria-label="فلترة العطور">
+      <button class="filter active" data-filter="all">الكل</button>
+      <button class="filter" data-filter="men">رجالي</button>
+      <button class="filter" data-filter="women">نسائي</button>
+      <button class="filter" data-filter="unisex">للجنسين</button>
+    </div>
+    <div class="product-grid" id="productGrid">
+      <article class="product-card" data-category="men">
+        <div class="product-image image-amber"><span class="product-tag">الأكثر طلبًا</span><div class="mini-bottle"><i></i><b>♛</b></div></div>
+        <div class="product-info"><p class="product-type">عطر رجالي · خشبي دافئ</p><h3>عود فاخر</h3><p class="notes">العود · العنبر · الأخشاب</p><div class="product-bottom"><strong>549 جنيه</strong><button class="add-btn" data-name="عود فاخر" data-price="549">أضف للسلة +</button></div></div>
+      </article>
+      <article class="product-card" data-category="women">
+        <div class="product-image image-rose"><div class="mini-bottle rose-bottle"><i></i><b>♛</b></div></div>
+        <div class="product-info"><p class="product-type">عطر نسائي · زهري ناعم</p><h3>روز ليالي</h3><p class="notes">الورد · الفانيليا · المسك</p><div class="product-bottom"><strong>499 جنيه</strong><button class="add-btn" data-name="روز ليالي" data-price="499">أضف للسلة +</button></div></div>
+      </article>
+      <article class="product-card" data-category="unisex">
+        <div class="product-image image-blue"><div class="mini-bottle blue-bottle"><i></i><b>♛</b></div></div>
+        <div class="product-info"><p class="product-type">للجنسين · منعش وأنيق</p><h3>بلو نايت</h3><p class="notes">الحمضيات · الأعشاب · المسك</p><div class="product-bottom"><strong>499 جنيه</strong><button class="add-btn" data-name="بلو نايت" data-price="499">أضف للسلة +</button></div></div>
+      </article>
+      <article class="product-card" data-category="men">
+        <div class="product-image image-gold"><div class="mini-bottle gold-bottle"><i></i><b>♛</b></div></div>
+        <div class="product-info"><p class="product-type">عطر رجالي · أنيق ومميز</p><h3>سِنتِر</h3><p class="notes">البرغموت · التوابل · العنبر</p><div class="product-bottom"><strong>499 جنيه</strong><button class="add-btn" data-name="سنتر" data-price="499">أضف للسلة +</button></div></div>
+      </article>
+    </div>
+    <p class="demo-note">تنبيه: أسماء المنتجات والأسعار المعروضة أمثلة قابلة للتعديل قبل النشر.</p>
+  </section>
+
+  <section class="story-section" id="story">
+    <div class="story-art"><div class="ornament">♛</div><p>MALEK AL OTOUR</p><span>EST. 2026</span></div>
+    <div class="story-copy"><p class="eyebrow">حكايتنا</p><h2>العطر أكثر من رائحة</h2><p>في ملك العطور، نؤمن أن لكل شخص بصمته الخاصة. صُممت هذه المساحة لتكتشف روائح تناسب لحظاتك، وتعبّر عن حضورك، وتترك ذكرى جميلة أينما ذهبت.</p><p class="gold-quote">«اختَر عطرك… ودَع حضورك يتحدث»</p><a href="#products" class="text-link">تصفّح المجموعة ←</a></div>
+  </section>
+
+  <section class="benefits">
+    <div><span>✧</span><h3>اختيارات مميزة</h3><p>روائح تناسب أذواقًا مختلفة</p></div>
+    <div><span>♧</span><h3>تجربة سهلة</h3><p>اطلب بسهولة من خلال واتساب</p></div>
+    <div><span>◇</span><h3>اهتمام بالتفاصيل</h3><p>من اختيار الرائحة حتى التغليف</p></div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div><p class="eyebrow">يسعدنا تواصلك</p><h2>هل وجدت عطرك؟</h2><p>اسألنا عن الروائح والأحجام والتوصيل، وسنساعدك في اختيار الأنسب.</p></div>
+    <form id="contactForm">
+      <label>اسمك<input id="customerName" required placeholder="اكتب اسمك"></label>
+      <label>رقم الموبايل<input id="customerPhone" required inputmode="tel" placeholder="01xxxxxxxxx"></label>
+      <label>رسالتك<textarea id="customerMessage" rows="3" placeholder="عايز تعرف تفاصيل أي عطر؟"></textarea></label>
+      <button class="gold-button" type="submit">تواصل عبر واتساب ↗</button>
+      <small class="form-help">قبل النشر، غيّر رقم واتساب التجريبي في ملف script.js إلى رقمك.</small>
+    </form>
+  </section>
+</main>
+<footer><a class="footer-brand" href="#home">♛ ملك العطور</a><p>عطور تحكي قصتك</p><div class="footer-links"><a href="#products">العطور</a><a href="#story">من نحن</a><a href="#contact">تواصل معنا</a></div><small>© 2026 ملك العطور. جميع الحقوق محفوظة.</small></footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
